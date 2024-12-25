@@ -110,7 +110,7 @@ function App() {
                       id="isLunchDetected"
                       type="checkbox"
                       checked={formData.isLunchDetected}
-                      onClick={handleToggleChange}
+                      onChange={handleToggleChange}
                       className="sr-only peer"
                     />
 
